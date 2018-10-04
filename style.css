@@ -1,0 +1,123 @@
+body,
+body * {
+    font-family: 'Montserrat', sans-serif;
+    color: #494949;
+}
+
+body {
+    background-color: #40a63d1a;
+}
+
+.tech {
+    color: #ca1a3d;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.top-nav {
+    background-color: white;
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-nav {
+    display: flex!important;
+    justify-content: flex-end!important;
+}
+
+.my-navv {
+    font-size: 13px;
+    margin: 0px;
+    color: gray!important;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area {
+    padding: 10px 0px;
+    margin: 10px 0px;
+}
+
+.date {
+    border-bottom: 1px solid gray;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.flexing {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.whatsnew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    width: 30%;
+    padding: 8px 8px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+
+.iconss {
+    padding: 2px 2px;
+}
+
+.i {
+    font-weight: bold;
+    color: green;
+    padding: 5px;
+}
+
+h2 {
+    padding: 0px 22px;
+}
+
+.whatsnew2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px 0px 0px;
+    width: 60%;
+    padding: 8px 8px;
+    background-color: green;
+    color: white;
+    font-size: 10px;
+}
+
+.div1 {
+    width: 70%;
+}
+
+.carrd {
+    width: 35rem;
+}
+
+#description {
+    font-size: 16px;
+}
+
+@media (min-width: 200px) and (max-width: 550px) {
+    .my-navv {
+        color: #343a40!important;
+    }
+    .hide {
+        display: none;
+    }
+    .carrd {
+        width: 20rem;
+    }
+}
+
+
+/* Write all your CSS here! */
